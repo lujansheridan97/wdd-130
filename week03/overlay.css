@@ -53,3 +53,32 @@ footer {
 	font-weight: 700;
 	font-style: italic;
 }
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+.box {
+    margin: 1rem;
+    border: 1px solid palevioletred;
+    padding: 1rem;
+    background-color: pink;
+    color: black;
+}
+ul {
+    list-style-type: disc;
+}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
