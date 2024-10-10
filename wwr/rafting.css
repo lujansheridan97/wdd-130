@@ -1,16 +1,57 @@
 
-body {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-}
 h1 {
     font-weight: 400;
 }
 
 
-.hero img {
-  display: block;
-  width: 100%;
-  height: auto;
+
+* {
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+:root {
+    --background-color:#a7c957 ;
+    --color: #6A993E;
+    --padding: 20px;
+    --border: 2px solid #f2e8cf;
 }
 
+h1, h2, h3, h4, h5, h6 {font-family: 'Roboto+Slab','Afacad+Flux';}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISWaA.ttf) format('truetype');
+    src : url(https://fonts.gstatic.com/s/afacadflux/v1/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsX4XZaQ.ttf) format('truetype');
+    color: black;
+}
+
+header {
+    background-color: var(--background-color);
+    padding: var(--padding)
+
+}
+
+.hero {
+    background-image: url('images/rafting57-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color:#6A994E;
+    padding: 20px;
+    border: 2px solid #bc4749;
+}
