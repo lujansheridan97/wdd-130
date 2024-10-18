@@ -112,6 +112,7 @@ p {
     position: absolute;
     color: #bc4749;
 }
+
 .hero-box article {
     margin: 0;
     padding: var(--padding)
@@ -199,7 +200,6 @@ figcaption {
     color:#bc4749;
     padding: 5px; 
     text-align: center;
-    font-size: 14;
 }
 
 .social-media a {
