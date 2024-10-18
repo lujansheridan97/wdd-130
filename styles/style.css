@@ -1,73 +1,94 @@
-:root {
-    --my-favorite-color:steelblue;
-} 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --background-color: steelblue;
+    --color: darkblue;
+    --padding: 1rem;
+    --border: 2px dotted black;
+}
 
+body {
+    font-family: Georgia;
+    
+}
 nav {
-    background-color: steelblue;
-    padding: 10px;
-
+    background-color: var(--background-color);
+    padding: var(--padding); 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-
 nav a {
-    color: white;
     display: block;
-    padding: 20px;
-
+    text-decoration: none;
+    color: white;
+    padding: var(--padding);
+    font-weight: bold;
+    font-size: 1.2rem;
 }
-
 h1 {
+    font-family: Arial;
     color: steelblue;
+    border-bottom: 1px solid steelblue;
 }
-
-img {
-width: 150px;
-height: auto;
-border: 1px solid steelblue;
-padding: 2px;
-box-shadow: 0 0 30px gray;
+main img {
+    width: 150px;
+    height: auto;
+    border: var(--border);
+    padding: var(--padding);
+    box-shadow: 0 0 30px gray;
+    float: right;
 }
-
 p {
-    padding: 10px;
+    padding: 0;
 }
-
 main {
-   max-width: 840px; 
+    max-width: 840px;
+    grid-column: 2/4;
+    
 }
-
 aside {
-    width: 20rem ;
-    margin: 1rem;
-    border: 1px ;
-    padding: 1rem ;
-    background-color: lightblue;
-    color: #FF1493 ;
-
+    width: 20rem;
+    text-align: center;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2
 }
+
+aside h2 {
+   position: absolute;
+   top: 80px;
+   left: 90px;
+}
+
 aside img {
     width: 200px;
     height: auto;
 }
-
-main img {
-    width: 150px;
-    height: auto;
-
-}
-
-p {
-    padding: 0;
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    padding: var(--padding);
+    border-top: 1px solid black;
     text-align: center;
+}
+.grid {
+    display: grid;
+    align-items: center;grid-template-columns: repeat(3,1fr);
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 2rem;
+    background-color: peachpuff;
+    color: #ac3c16
 }

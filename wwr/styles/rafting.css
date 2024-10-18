@@ -65,6 +65,8 @@ p {
     color: var(--accent1-color);
 }
 
+/* Class Selectors */
+
 .hero {
     margin: 1rem;
     padding: var(--padding);
