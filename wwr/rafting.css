@@ -55,3 +55,43 @@ header {
     padding: 20px;
     border: 2px solid #bc4749;
 }
+.hero h1 {
+    font-family: "Open Sans", sans-serif;;
+    top: 60px;
+    text-align: center;
+    display: block;
+    background-color: #6A994E(6,69,134,0.5);
+    color: #bc4749;
+    position: absolute;
+}
+    
+.hero-box article {
+    width: 80%;
+    height: 30%;
+    padding: var(--padding);
+    background-color: #6A994E(6,69,134,0.5); 
+    position: absolute;
+    color: #bc4749;
+}
+
+.hero-box img {
+    width: 100px;
+    height: auto;
+    float: right;
+}
+  
+.history {
+    margin: 1rem;
+    padding: var(--padding);
+    color: bc4749;
+
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+footer {
+    border-top: 1px solid #6A994E;
+    text-align: center;
+}
