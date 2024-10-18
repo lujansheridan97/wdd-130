@@ -98,12 +98,13 @@ p {
 }
 .hero h1 {
     font-family: "Open Sans", sans-serif;;
+    font-size: 45pt;
     top: 60px;
     text-align: center;
     display: block;
     width: 100%;
-    background-color: var(--secondary-color)(6,69,134,0.5);
-    color: var(--accent1-color);
+    background-color: rgba(74, 232, 121, 0.5);
+    color: #F2E8CF;
     position: absolute;
 }
 
