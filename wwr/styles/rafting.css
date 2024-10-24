@@ -15,11 +15,13 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    color: #001111;
     background-color: var(--nav-background-color);
 }
 
 header {
     padding: 10px;
+    color: #001111;
     background-color: var(--nav-background-color) ;
     margin: 1rem auto;
     display: grid;
@@ -30,6 +32,7 @@ header {
 }
 
 main {
+    color: #001111;
     background-color: var(--primary-color);
 }
 
@@ -38,6 +41,7 @@ img {
 }
 
 nav {
+    
     padding: 1rem;
     display: flex;
     justify-content: space-around;
@@ -47,13 +51,14 @@ nav {
 nav a {
     font-family: 'Open Sans', serif;
     display: block;
-    color: var(--text-color) ;
+    color: #001111;;
     text-decoration: none;      
 }
 
 p {
+    font-family: 'Open Sans', serif;
     font-size: 14pt;
-    color: var(--accent1-color);
+    color: #001111;
 }
 
 /* Class Selectors */
@@ -63,17 +68,19 @@ p {
 }
 
 .hero img {
+    color: #001111;
     display: block;
     width: 100%;
     height: auto;
 }
 
 .hero h1 {
+    font-family: 'Open Sans', serif;
+    color: #001111;
     position: absolute;
     top: 8px;
     left: 0;
     padding: 15px 541px 15px;
-    color: black;
     background-color: var(--accent2-color) ;
     opacity: 0.8;
 }
@@ -90,7 +97,7 @@ article {
     background-color: var(--primary-color) ;
     opacity: 0.8;
     border: 10px;
-    color:black ;
+    color: #001111;
 }
 
 article img {
@@ -99,17 +106,18 @@ article img {
     height: auto;
 }
 .history h2 {
+    color: #001111;
     text-align: center;
 }
 
 h2 {
     font-size: 2rem;
-    
+    color: #001111;
 }
 
 .container {
     font-size: 1rem;
-    color: whitesmoke;
+    color: #001111;
     padding: 1rem;
     text-align: center;
 }
@@ -124,10 +132,14 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    color: #001111;
+    font-family: 'Open Sans', serif;
 }
 
 .adventure h2 {
+    font-family: 'Open Sans', serif;
     text-align: center;
+    color: #001111;
 }
 
 #image-container {
@@ -190,6 +202,9 @@ footer {
 
 h1 {
     text-align: center;
+    color: #001111;
+    
+
 }
 
 .contact-container {
@@ -204,10 +219,11 @@ h1 {
 }
 
 .company-info {
+    
     text-align: left;
     margin-bottom: 20px;
     font-size: 1.5rem;
-    color: white;
+    color: #001111;
 }
 
 .map {
@@ -225,7 +241,7 @@ h1 {
 
 .employee-profile {
     text-align: center;
-    color: white;
+    color: #001111;
 }
 
 .employee-profile {
@@ -249,6 +265,8 @@ h1 {
 form {
     width: 650px;
     margin: 0 auto;
+    color: #001111;
+    font-family:  'Open Sans', serif;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
@@ -258,6 +276,8 @@ form {
 
 fieldset {
     display: grid;
+    color: #001111;
+    font-family:  'Open Sans', serif;
     grid-gap: 1.5rem;
     margin: 1rem;
     border: #001111;
@@ -267,6 +287,7 @@ fieldset {
 legend {
     padding: 0.5rem;
     color: #001111;
+    font-family:  'Open Sans', serif;
     font-size: 1.3em;
 }
 
@@ -275,6 +296,8 @@ label {
 }
 
 input, textarea {
+    color: #001111;
+    font-family:  'Open Sans', serif;
     padding: 0.5rem;
     font-size: 1rem;
     margin-bottom: 10px;
@@ -288,7 +311,8 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem;
-    color: black;
+    color: #001111;
+    font-family:  'Open Sans', serif;
     border: none;
     border-radius: .5rem;
     padding: .75rem;
@@ -300,5 +324,138 @@ button:hover {
 }
 
 a {
-    color: white;
+    color: #303030;
+}
+
+/*Trips Page */
+
+.contact h1, h2 {
+    color: #001111;
+    font-family:  'Open Sans', serif;
+    text-align: center;
+}
+
+.contact a:link, .contact a:visited {
+    color: var(--nav-link-color) ;
+}
+
+.contact img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: #001111;
+    font-family:  'Open Sans', serif;
+
+}
+
+.trip-descriptions {
+    color: #001111;
+    font-family:  'Open Sans', serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.trip {
+    color: #001111;
+    font-family:  'Open Sans', serif;
+    box-sizing: border-box;
+    border: 1px solid #faf9f9;
+    padding: 30px;
+    width: 30%;
+    text-align: center;
+    
+}
+
+.trip img {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    color: #001111;
+    font-family:  'Open Sans', serif;
+}
+/*Home or Index Page*/
+
+.welcome h1 {
+    font-size: 3em;
+    color: #001111;
+    padding: 10px 50px 10px;
+    background-color: rgb(135, 176, 192);
+    opacity: 0.8;
+}
+
+.full-width-image {
+    width: 100%;
+    color: #001111;
+    height: auto;
+    display: block;
+}
+
+.image-section h2 {
+    font-size: 2em;
+    color: #001111;
+}
+
+.content-wrapper {
+    
+    display: flex;
+}
+
+#form1 {
+    display: inline-block;
+    width: 70%;
+    margin-right: 30px;
+    background-color: rgb(56, 121, 56);
+    color: #001111;;
+}
+
+.custom-form label {
+    font-size: large;
+}
+
+.custom-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.trip-section {
+    text-align: center;
+    padding: 10px 50px 10px;
+    opacity: 0.9;
+}
+
+.action-trip {
+    margin-top: 50px;
+    display: flex;
+    font-size: 2rem;
+    color: #001111;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(240, 89, 19)
+}
+
+.action-trip a:link, .action-trip a:visited  {
+    text-decoration: none;
+    color: var(--nav-link-color)
+    
+}
+
+.grid-container {
+    display: grid;
+    color: #001111;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px
+
+}
+
+.grid-container {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    color: #001111;
 }
